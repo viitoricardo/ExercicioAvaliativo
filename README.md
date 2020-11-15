@@ -1,8 +1,8 @@
 # ExercicioAvaliativo
-Para executar o projeto execute o scipt de bando de dados na raiz
+
 <ol>
 <li>
-O Exercício número 1 está contido na API
+O Exercício número 1 está contido na API, não exige autenticação
 </li>
 <li>
 Para executar o projeto execute o scipt de bando de dados na raiz
