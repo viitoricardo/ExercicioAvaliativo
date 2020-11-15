@@ -40,6 +40,7 @@ namespace Patrimonios.Controllers
 
         // POST api/<UsuarioController>
         [HttpPost]
+        [AllowAnonymous]
         public UsuarioViewModel Post([FromBody] UsuarioViewModel usuario)
         {
             return Service.InserirUsuario(usuario);
