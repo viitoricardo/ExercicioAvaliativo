@@ -15,6 +15,11 @@ namespace Patrimonios.Services.Impl
 
         private int maxLista(int n)
         {
+            if (n < 0 )
+            {
+                return -1;
+            }            
+
             List<int> lista = new List<int>();
             string numero = n.ToString();
 
